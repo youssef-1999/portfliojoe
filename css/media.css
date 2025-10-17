@@ -1,11 +1,138 @@
 
-
-@media screen and (min-width:100px) and (max-width:1000px) {
+@media screen and (min-width:100px) and (max-width:600px) {
    
-    .about
-    {
-        display: flex;
-        flex-direction: column;
-    }
+  #home h1 {
+    font-size: 1.5rem;
+  }
+  #about .about {
+    flex-direction: column;
+  }
+
+  #about .image_with_info_listing {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #about .image_with_info_listing ul {
+width: 100%;
 }
+#about  .about_skills{
+  width: 80%;
+}
+#about  .about_info h4 {
+  margin-top: 10px;
+}
+#about  .about_info{
+  width: 80%;
+}
+
+#slider .container .carousel .carousel-inner .carousel-item .item{
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+
+#contact .social_icons a i {
+  font-size: 0.8rem;
+}
+#contact h2 {
+  font-size:1rem;
+}
+#contact button {
+  font-size: 0.7rem;
+  margin: 10px 0px;
+}
+#contact .p_below_h2{
+  font-size: 0.8rem;
+}
+#contact .contact_icons i {
+  font-size: 0.8rem;
+}
+#contact span {
+  font-size: 0.5rem;
+}
+
+}
+
+@media screen and (min-width:601px) and (max-width:800px) {
+   
+
+  #about .about {
+    flex-direction: column;
+  }
+  #blog .card .card-body .card-title a  {
+    font-size: 0.1rem;
+  }
+  #about .about .image_list {
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+  #about .about .about_me p {
+    font-size: 0.5rem;
+  }
+    #blog button span {
+    font-size: 0.8rem;
+  }
+    #blog .card  .card-footer .left a  span {
+    font-size: 0.6rem;
+  }
+
+}
+@media screen and (min-width: 801px) and (max-width: 900px) {
+
+
+  #blog button span {
+    font-size: 0.8rem;
+  }
+      #blog .card  .card-footer .left a  span {
+    font-size: 0.6rem;
+  }
+
+  /* You can add more tablet customizations here */
+  #blog .card {
+    margin-bottom: 20px;
+  }
+
+  #blog h3 {
+    font-size: 1.5rem;
+  }
+
+  #blog p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+ 
+
+  #blog button span {
+    font-size: 0.8rem;
+  }
+        #blog .card  .card-footer .left a  span {
+    font-size: 0.6rem;
+  }
+
+  
+}
+
+@media screen and (min-width:801px) and (max-width:1000px) {
+   
+
+ #about .about .about_list {
+    flex-direction: column;
+    justify-content: flex-start;
+ }
+ 
+  #about .about .image_list {
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+
+}
+ 
+
+
+
+
 

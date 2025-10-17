@@ -1,10 +1,6 @@
-header 
-{
-    z-index: 1;
-}
-.custom_li
-{
-    display: inline;
+
+html, body {
+  overflow-x: hidden;
 }
 
 .hero_section_img
@@ -19,16 +15,8 @@ header
 
 }
 
-.custom_nav
-{
-    z-index: 1;
-}
-.navbar a:hover, .navbar,.navbar  .active , .navbar li>a
-{
-    
-    color:red
 
-}
+
 
 .nav-item a 
 {
@@ -46,9 +34,7 @@ header
     left: 0;
   }
   
-  .nav-item a:hover:after {
-    opacity: 1;
-  }
+
 .custom_hero_image
 {
     background-position: center;
@@ -88,61 +74,51 @@ header
 
     
 }
-.profile_info li
-{
-    font-size: 17.6px;
-    line-height: 26.4px;
-    color: #1e1e1e;
+/* //////////about section */
+
+#about .container .row .image_with_info_listing  {
+    width:60%;
 }
-.profile_info li span
-{
-    color: #4e4e4e;
-    font-size: 16px;
-    line-height: 24px;
-}
-.h1_hero
-{
-    font-size: 72px;
-    line-height: 86.4px;
-}
-.About_parent
-{
-    background-color: #eee;
-}
-.custom_h2_about h2
-{
-    line-height: 24px;
-}
-.custom_h2_about::after
-{
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 5px;
-    border: 3px solid skyblue;
-    top: 40px;
-   left: 0;
-    
-}
-.p_after_about
-{
-    font-size: 20px;
-    line-height: 30px;
-    width: 40rem;
-}
-.custom_progress
-{
-    margin-top:1px;
+#about .image_with_info_listing ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
-.custom_h3_title
-{
-    font-size: 3rem;
+#about .image_with_info_listing ul li {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
 }
-.custom_icon
-{
-    color: #0078ff;
+
+#about .image_with_info_listing ul li span {
+  font-weight: 600;
+  margin-right: 5px;
+  display: inline;
 }
+#about .custom_h2_about::after {
+content: "";
+position: absolute;
+width: 75px;
+height: 5px;
+background-color: #0078ff;
+border: 3px solid skyblue;
+top: 30px;
+left: 0;
+
+}
+
+
+
+
+
+
+
+
+
 .work-img
 {
     cursor: pointer;
@@ -230,12 +206,7 @@ header
     
    
 }
-.layer_below_services .container
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 .inner_layer i 
 {
@@ -253,7 +224,6 @@ header
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    width: 100%; 
 }
 
  .custom_carousel_btn  [data-bs-target]
@@ -263,11 +233,7 @@ header
     border-radius: 50%;
 }
 
-.item p
-{
-    padding: 0 8rem;
-    font-size: 1.5rem;
-}
+
 
 .icon_footer
 {
@@ -283,7 +249,6 @@ header
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
 }
 .custom_h2_contact::after
 {
@@ -305,33 +270,9 @@ header
     border-radius: 15px;
 }
 
-.layer_contact .icon i
-{
-    background-color: white;
-    width: 4rem;
-    height: 4rem;
-    border:2px solid #0078ff;
-    transition: all 1s;
-    border-radius: 50%;
-    text-align: center;
-}
-.icon_contact   :hover i
-{
-    border: 2px solid skyblue;
-    background-color: #0078ff;
-    color: white;
-}
+
 footer
 {
     background-color: #0062d3;
 }
 
-/* input
-{
-    transition: all 0.5s;
-}
-input:hover
-{
-    border-color: 0.15s ease-in-out;
-    box-shadow: 0.15s 0.15s ease-in-out;
-} */
